@@ -1,9 +1,5 @@
-import React from "react";
+import SignInContainer from "../containers/SignInContainer";
 
-export default function Home() {
-  return (
-    <div>
-      <h1>Sign In</h1>
-    </div>
-  );
+export default function SignIn() {
+  return <SignInContainer />;
 }
