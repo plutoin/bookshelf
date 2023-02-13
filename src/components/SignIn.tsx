@@ -6,7 +6,13 @@ export default function SignIn() {
     <Row align="middle" className={styles.signin_row}>
       <Col span={24}>
         <Row className={styles.signin_contents}>
-          <Col span={12}></Col>
+          <Col span={12}>
+            <img
+              src="/bg_signin.png"
+              alt="Sign In"
+              className={styles.signin_bg}
+            />
+          </Col>
           <Col span={12}>
             <div className={styles.signin_title}>My Books</div>
             <div className={styles.signin_subtitle}>
